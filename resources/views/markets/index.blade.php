@@ -10,6 +10,7 @@
     </li>
     @endforeach
 </ul>
+{{ $markets->links }}
 
 </html>
 @endsection
