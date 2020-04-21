@@ -1,5 +1,6 @@
 <!Doctype html>
-
+@extends('layouts.app')
+@section('main')
 <ul>
     @foreach($markets as $market)
     <li>
@@ -11,3 +12,4 @@
 </ul>
 
 </html>
+@endsection
